@@ -1,0 +1,22 @@
+{
+  "repo": "Armin",
+  "collected_at": "2026-08-28",
+  "collector": "ZCode audit/zcode-20260828",
+  "head": "fcaca74",
+  "last_github_update": "2026-06-30",
+  "content": {
+    "files": [
+      "Documents/Claude/Projects/Ai farm (1)/heart-awareness-map-v3.html",
+      "Documents/Claude/Projects/Ai farm (1)/سیستم-همیشه-روشن-پرامپت-و-دستورالعمل.md"
+    ],
+    "interpretation": "مخزن توضیحش Painting lead generation است ولی محتوایش (۱) نقشهٔ آگاهی قلب و (۲) سند «سیستم همیشه‌روشن» است — سند دومی در واقع طرح‌وارگونهٔ پیدایش LANGAR است (بات HRV تک‌کاربره با /log /trend /insight /halt /resume روی VPS ارزان)."
+  },
+  "gaps_vs_description": [
+    "هیچ domain model ندارد (lead/customer/property/job/quote/campaign)",
+    "هیچ pipeline لید ندارد (ingest/deduplicate/qualify/estimate/verify)",
+    "هیچ تست/CI ندارد",
+    "هیچ دیتابیس و adapter (CRM/email/calendar/maps) ندارد"
+  ],
+  "verdict": "Armin فعلاً «ایده و سند» است نه پای اجرایی. پای نقاشیِ واقعی و زنده روی برد 138 (port 8792، lead.master-painting.com، painting.sqlite با 8 ردیف پایلوت) در مخزن ofn اجرا می‌شود — نه این‌جا.",
+  "recommendation": "یا (الف) این مخزن به homes/specs تغییر ماهیت دهد و پای زنده در ofn بماند، یا (ب) اسکلت پیشنهادی سند مالک (domain/pipeline/learning/adapters/tests) این‌جا ساخته شود و از ofn جدا بماند. تصمیم D-owner."
+}
